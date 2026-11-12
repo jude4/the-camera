@@ -13,6 +13,7 @@ npm run dev
 
 Vite listens on port 5173. No API keys, external services, runtime asset downloads or model files are needed. The camera is generated locally from geometry and canvas textures.
 
+
 ```sh
 npm run build     # TypeScript validation and production bundle
 npm run preview   # Serve the production bundle
