@@ -615,9 +615,14 @@ export default function App() {
         <button onClick={() => setHelp(true)}>
           <CircleHelp size={14} /> Controls & shortcuts
         </button>
-        <span className="footer-end">
-          BUILT FOR THE CURIOUS <span>✳</span>
-        </span>
+        <div className="footer-end">
+          <a href="https://jude4.github.io/Judeverse/" target="_blank" rel="noopener noreferrer">
+            Portfolio <ArrowUpRight size={12} />
+          </a>
+          <a href="https://github.com/jude4" target="_blank" rel="noopener noreferrer">
+            GitHub <ArrowUpRight size={12} />
+          </a>
+        </div>
       </footer>
       {settings && (
         <div className="settings-popover">
