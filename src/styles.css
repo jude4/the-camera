@@ -597,6 +597,20 @@ footer > button {
   color: #c9b18b;
   font-size: 18px;
 }
+.footer-end a {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  color: #c9b18b;
+  text-decoration: none;
+}
+.footer-end a:hover {
+  text-decoration: underline;
+}
+.footer-end a:focus-visible {
+  outline: 2px solid #c9b18b;
+  outline-offset: 4px;
+}
 .inspector {
   position: absolute;
   top: 13px;
